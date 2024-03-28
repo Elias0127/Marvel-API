@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Marvel API</string>
+    <string name="character_image">Character image</string>
+</resources>
