@@ -8,7 +8,7 @@ Time spent: **10** hours spent in total
 
 ## Summary
 
-**Name of your app** is an android app that ** displays a random character from the the Marvels API")**
+**Marvel API** is an android app that ** displays a random character from the the Marvels API")**
 
 If I had to describe this project in three (3) emojis, they would be: **🦸🏽🎬🍿**
 
