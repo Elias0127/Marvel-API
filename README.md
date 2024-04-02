@@ -33,6 +33,9 @@ Here's a video / GIF that demos all of the app's implemented features:
 
 <img src='https://github.com/Elias0127/Marvel-API/assets/86494198/45fb9a97-c8f3-4bad-b8f3-61211e7a00d7 ' title='Video Demo' width='200' alt='Video Demo' />
 
+more
+https://jmp.sh/t9LnwDCO
+
 GIF created with **Kap**
 
 <!-- Recommended tools:
