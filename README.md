@@ -52,13 +52,10 @@ GIF created with **Kap & Jumpshare**
 - [ScreenToGif](https://www.screentogif.com/) for Windows
 - [peek](https://github.com/phw/peek) for Linux. -->
 
-## Notes
-
-Here's a place for any other notes on the app, it's creation process, or what you learned this unit!
 
 ## License
 
-Copyright **2024** **Elias**
+Copyright **2024** **Elias Woldie**
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
