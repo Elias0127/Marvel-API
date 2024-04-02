@@ -20,8 +20,17 @@ The following REQUIRED features are completed:
 
 - [x] Make an API call to an API of your choice using AsyncHTTPClient
 - [x] Display at least three (3) pieces of data for each API entry retrieved
-- [x] A working Button requests a new API entry and updates the data displayed
+- [x] Implement a RecyclerView to display a list of entries from the API
 
+The following STRETCH features are implemented:
+
+- [x] Add a UI element for the user to interact with API further
+- [x] Show a `Toast` when an item is clicked
+- [x] Add item dividers with `DividerItemDecoration`
+
+The following EXTRA features are implemented:
+
+- [x] Add Cardview to style each character 
 
 ## API Choice
 
@@ -33,10 +42,10 @@ Here's a video / GIF that demos all of the app's implemented features:
 
 <img src='https://github.com/Elias0127/Marvel-API/assets/86494198/45fb9a97-c8f3-4bad-b8f3-61211e7a00d7 ' title='Video Demo' width='200' alt='Video Demo' />
 
-more
+for more
 https://jmp.sh/t9LnwDCO
 
-GIF created with **Kap**
+GIF created with **Kap & Jumpshare**
 
 <!-- Recommended tools:
 - [Kap](https://getkap.co/) for macOS
