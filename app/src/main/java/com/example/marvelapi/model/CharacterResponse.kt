@@ -1,4 +1,4 @@
-package com.example.marvelapp.model
+package com.example.marvelapi.model
 
 data class CharacterResponse(
     val data: CharacterData

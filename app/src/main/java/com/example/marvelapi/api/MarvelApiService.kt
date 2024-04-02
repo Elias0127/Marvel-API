@@ -1,6 +1,6 @@
 package com.example.marvelapp.network
 
-import com.example.marvelapp.model.CharacterResponse
+import com.example.marvelapi.model.CharacterResponse
 import retrofit2.http.GET
 import retrofit2.http.Query
 import retrofit2.Response
@@ -13,3 +13,4 @@ interface MarvelApiService {
         @Query("ts") timestamp: String
     ): Response<CharacterResponse>
 }
+
