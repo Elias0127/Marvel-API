@@ -56,4 +56,7 @@ dependencies {
     // Glide for image loading
     implementation("com.github.bumptech.glide:glide:4.12.0")
     kapt("com.github.bumptech.glide:compiler:4.12.0")
+
+    // CardView
+    implementation("androidx.cardview:cardview:1.0.0")
 }
