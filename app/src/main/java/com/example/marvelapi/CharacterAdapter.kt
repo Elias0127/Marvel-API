@@ -41,16 +41,19 @@ class CharacterAdapter(characters: List<Character>) : RecyclerView.Adapter<Chara
     inner class CharacterViewHolder(itemView: View, private val adapter: CharacterAdapter) : RecyclerView.ViewHolder(itemView) {
         private val nameTextView: TextView = itemView.findViewById(R.id.characterNameTextView)
         private val imageView: ImageView = itemView.findViewById(R.id.characterImageView)
+        private val descriptionTextView: TextView = itemView.findViewById(R.id.characterDescriptionTextView)
+
 
         fun bind(character: Character) {
             nameTextView.text = character.name
+            descriptionTextView.text = character.description.ifEmpty { "No description available" }
             Glide.with(itemView.context)
                 .load(character.thumbnail.getUrl().replace("http://", "https://"))
-                .placeholder(R.drawable.placeholder_image) // Ensure these resources exist
+                .placeholder(R.drawable.placeholder_image)
                 .error(R.drawable.error_image)
                 .into(imageView)
 
-            itemView.setOnClickListener {
+        itemView.setOnClickListener {
                 val position = adapterPosition
                 if (position != RecyclerView.NO_POSITION) {
                     Toast.makeText(itemView.context, "${character.name} clicked!", Toast.LENGTH_SHORT).show()
